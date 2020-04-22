@@ -46,7 +46,7 @@ function handleInput(event){
 
 
 //PST
-const [pstGst,setpstGst] =useState("11");
+const [pstGst,setpstGst] =useState("");
 function changePro2(event){
     const selectPstGst=event.target.value;
     setpstGst(selectPstGst);

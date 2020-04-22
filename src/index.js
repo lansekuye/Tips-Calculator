@@ -4,9 +4,11 @@ import App from './App';
 import Header from './Header';
 import Footer from "./Footer"
 ReactDOM.render(
-    <div id="container">
+    <div className="wrapper">
+    <div className="content">
     <Header />
     <App />
+    </div>
     <Footer />
     </div>
     ,
