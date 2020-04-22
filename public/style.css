@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+    color: #34495e;
+    font-weight: 300;
+    background: #f6d198;
+    
+  }
+.Header{
+    background-color:#ffa41b;
+    padding: 20px 10px;
+    color: #34495e;  
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.showtime p{
+  font-weight: 400;
+  font-size: 18px;
+}
+
+input {
+    border: 1px solid;
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto ;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: 300;
+  }
+
+  label {
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 0 auto ;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  button {
+    margin: 30px 30px;
+    background-color: #F76B8A;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: 18px;
+    display: inline-block;
+    text-align: center;
+  }
+
+  .button {
+    text-align: center;
+  }
+.result{
+  text-align: center;
+}
+.result p{
+    margin: 0 auto 15px auto;
+    text-align: left;
+    font-size: 25px;
+    width: 800px;
+    font-weight: 400;
+}
+
+.Pst{
+    margin: 0 auto;
+    font-size: 10px;
+    text-align: center;
+}
+.Pst select{
+  margin: 0 15px;
+  width: 150px;
+  font-size: 15px;
+  display: inline-block;
+}
+.showTax{
+  color: #F76B8A;
+  display: inline-block;
+}
+
+h2{
+    text-align: center;
+    margin: auto auto;  
+}
+
+.tax input{
+    padding: 0;
+    width: 30px;
+    display: inline-block;
+}
+
+.tax label{
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  padding: 10px 0 0 0;
+}
+
+
+.tax{
+  text-align: center;
+  
+}
+
+.first h2{
+  margin: 20px auto 0px auto;
+  font-size: 20px;
+  
+}
+
+h2{
+  font-weight: normal;
+}
+
+
+
+
+#container{
+
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.footer{
+  height: 50px;
+}
+footer{
+  width: 100%;
+  line-height:50px; 
+  text-align: center;
+  font-size: 20px;
+  color: #ecf0f1; 
+  position:absolute;
+  bottom:0px;
+  left:0px;
+  background: #333;
+}
+
+a{
+  color:#3498db
+}
