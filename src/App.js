@@ -129,7 +129,7 @@ console.log()
      <input type = "number" id="price" name= "price" required placeholder="Price"  onChange ={handleInput} value = {data.price}></input>
      <label htmlFor = "people">Number of people:</label>
      <input type = "number" id="people" name= "people" required placeholder="How many people" onChange ={handleInput} value = {data.people}></input>
-     <label htmlFor = "rate">Rate:</label>
+     <label htmlFor = "rate">Rate (%) :</label>
      <input type = "number" id="rate" name= "rate" required placeholder="Tips Rate" min="0" max="30" onChange ={handleInput} value = {data.rate}></input>
      <div className="button">
      <button>Calculate</button>
