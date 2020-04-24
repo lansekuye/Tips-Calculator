@@ -4,7 +4,8 @@ function CurrentTime(){
 
     let myDate = new Date();
     let year = myDate.getFullYear();
-    let month = myDate.getMonth();
+    let month = myDate.getMonth()+1;
+    //should remember this method return (0-11)
     let day = myDate.getDate();
 
     const now = new Date().toLocaleTimeString();
